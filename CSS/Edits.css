@@ -1,0 +1,14 @@
+/* For all pages other than Index.html */
+
+/* For Furniture.html */
+
+.furniture-section{
+    margin: 10vh auto;
+    width: 88vw;
+}
+
+.item{
+    width: 27vw;
+}
+
+/* For contact.html */

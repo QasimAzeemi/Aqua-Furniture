@@ -1,0 +1,678 @@
+/* Fonts imports Starts here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Fonts imports Ends here */
+/* Reset Default css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Starts here */
+
+nav{
+    display: flex;
+    background-color: #ffffff;;
+    height: 9vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    font-weight: 300;
+}
+
+nav li{
+    list-style: none;
+    padding: 15px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+}
+
+.logo{
+    display: flex;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-buttons{
+    display: flex;
+}
+
+.login_button{
+    margin: 2vh 1vw;
+    font-size: 1.3vw;
+}
+
+.login_button a{
+    text-decoration: none;
+    color: black;
+}
+
+.search_button a{
+    text-decoration: none;
+    color: black;
+}
+
+.search_button{
+    margin: 2vh 1vw;
+}
+
+/* Navbar Ends here */
+
+/* Burger menu Starts here */
+.burger-menu{
+    display: none;
+    border: none;
+    background-color: transparent;
+    width: 3vw;
+    height: 4vh;
+    font-size: 1.5rem;
+}
+
+.burger-menu:active{
+    border: none;
+}
+
+.burger-menu-items{
+    display: none;
+    justify-content: center;
+}
+
+
+.burger-menu-items ul li{
+    list-style: none;
+    padding: 2vh;
+    text-align: center;
+}
+
+.burger-menu-items ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Burger menu Ends here */
+
+
+/* Hero Section Starts here */
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96vw;
+    height: 80vh;
+    margin: 5vh 2vw;
+}
+
+.slide1{
+    display: flex;
+    width: 90vw;
+    height: 72vh;
+}
+
+.slide-content{
+    display: flex;
+    /* background-color: green; */
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slide-content h1{
+    font-size: 3vw;
+}
+
+.slide-content p{
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+
+.slide-img{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.contact-us-button{
+    width: 9vw;
+    height: 6vh;
+    background-color: #f89646;
+    border: none;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.contact-us-button:hover{
+    background-color: transparent;
+    color: #f89646;
+    border: 1px solid #f89646;
+}
+
+.about-us-button{
+    width: 9vw;
+    height: 6vh;
+    background-color: #6bb7be;
+    border: none;
+    color: white;
+    font-size: 1.3vw;
+    margin-left: 2vw;
+}
+
+.about-us-button:hover{
+    background-color: transparent;
+    color: #6bb7be;
+    border: 1px solid #6bb7be;
+}
+
+
+.hero-buttons{
+    margin: 2vh 0vw 15vh 0vw;
+    display: flex;
+}
+
+.slide-img img{
+    width: 45vw;
+}
+/* Hero Section Ends here */
+
+/* Furniture Section Starts here */
+
+.furniture-section{
+    height: 103vh;
+    width: 96vw;
+    margin: auto;
+}
+
+.furniture-items{
+    display: flex;
+    margin: 10vh 2vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item{
+    height: 39vh;
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1vh 0vw;
+}
+
+
+.item .img{
+    margin: 2vh auto;
+    display: flex;
+    justify-content: center;
+    width: 15vw;
+    height: 26vh;
+}
+
+.item img{
+    width: 100%;
+}
+
+.purchase-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchase-section .dollar-symbol{
+    color: #6bb7be;
+}
+
+.purchase-section button{
+    color: #6bb7be;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+/* Furniture Section Ends here */
+
+/* About Us Section Start here */
+
+.about-us-section{
+    display: flex;
+    margin: 20vh 2vw;
+}
+
+.about-img{
+    width: 50%;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-content p{
+    font-size: 1.3vw;
+    margin: 5vh 0vw;
+}
+
+.read-more-button{
+    width: 11vw;
+    height: 7vh;
+    background-color: #6bb7be;
+    border: none;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.read-more-button:hover{
+    background-color: transparent;
+    color: #6bb7be;
+    border: 1px solid #6bb7be; 
+}
+
+/* About Us Section Ends here */
+
+/* Blog Section Starts here */
+
+.blog-section{
+    display: flex;
+    margin: 15vh 2vw;
+    flex-direction: column;
+}
+
+.blog-section .section-heading{
+    margin: auto;
+}
+
+.blogs{
+    display: flex;
+    margin: 6vh 2vw;
+    justify-content: space-between;
+}
+
+.blogs img{
+    width: 100%;
+}
+
+.blog1{
+    width: 29.2vw;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.blog2{
+    width: 29.2vw;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.blog3{
+    width: 29.2vw;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.blog-content{
+    width: 95%;
+    margin: auto;
+}
+
+.blog-content p{
+    font-weight: 300;
+}
+
+.blog-content button{
+    margin: 1.5vh 0vw;
+}
+
+/* Blog Section Ends here */
+
+/* Testimonial Section Starts here */
+
+.testimonial-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials{
+    height: 35vh;
+    width: 70vw;
+    margin: 10vh auto 2vh auto;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonials-img{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-img img{
+    width: 75%;
+    border-radius: 100%;
+    border: 10px solid #6bb7be;
+}
+
+.testimonials-content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testimonials-content i{
+    font-size: 1.7vw;
+}
+
+.testimonials-content span{
+    color: #6bb7be;
+    font-size: 1.5vw;
+}
+
+.testimonial-section .section-heading{
+    margin: auto;
+}
+
+.testimonials-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials-buttons .forward-button{
+    color: #6bb7be;
+    width: 2.2vw;
+    height: 4.7vh;
+    font-size: 2.5vw;
+    border-radius: 100%;
+    border: none;
+    margin: 0vh 0.5vw;
+    background-color: transparent;
+}
+
+.testimonials-buttons .previous-button{
+    color: #6bb7be;
+    width: 2.2vw;
+    height: 4.7vh;
+    font-size: 2.5vw;
+    border-radius: 100%;
+    border: none;
+    margin: 0vh 0.5vw;
+    background-color: transparent;
+}
+
+.testimonials-buttons .forward-button:hover{
+    color: black;
+}
+
+.testimonials-buttons .previous-button:hover{
+    color: black;
+}
+
+/* Testimonial Section Ends here */
+
+/* Contact Us Section Starts here */
+
+.contact-us-section{
+    display: flex;
+    margin: 10vh 2vw;
+}
+
+.contact{
+    width: 50%;
+}
+
+.contact .section-heading{
+    margin: 1vw;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+}
+
+.contact .input-feild{
+    margin: 1vh 0vw;
+    width: 37vw;
+    height: 4vh;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact textarea{
+    margin: 1vh 0vw;
+    width: 37vw;
+    height: 14vh;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-send-button{
+    width: 11vw;
+    height: 7vh;
+    background-color: #6bb7be;
+    border: none;
+    color: white;
+    font-size: 1.3vw;      
+}
+
+.contact-send-button:hover{
+    background-color: transparent;
+    border: 2px solid #6bb7be;
+}
+
+.map{
+    display: flex;
+}
+/* Contact Us Section Ends here */
+
+/* Footer Section Starts here */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .content{
+    display: flex;
+    flex-direction: column;
+    background-color: #191e1f;
+    width: 90vw;
+}
+
+.contact-info{
+    display: flex;
+    color: white;
+    margin: 15vh auto;
+    height: 10%;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.contact-info i{
+    margin: 0vh auto;
+}
+
+.phone-num{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.phone-num:hover{
+    color: #f89646;
+}
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.email:hover{
+    color: #f89646;
+}
+
+
+.location{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.location:hover{
+    color: #f89646;
+}
+
+.botom-part{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botom-part h2{
+    font-weight: 500;
+}
+
+.quick-links{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    color: white;
+}
+
+.quick-links ul{
+    list-style: none;
+}
+
+.quick-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.insta-feeds{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    color: white;
+}
+
+.insta-img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.insta-img-back{
+    width: 5vw;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    margin: 4% 2%;
+}
+
+.insta-img-back img{
+    width: 100%;
+}
+
+.updates{
+    display: flex;
+    flex-direction: column;
+}
+
+.singup{
+    display: flex;
+    flex-direction: column;
+}
+
+.singup input{
+    margin: 4vh 0vw 2vh 0vw;
+    height: 5vh;
+}
+
+.singup h2{
+    color: white;
+}
+
+.subscribe-up-button{
+    background-color: #6bb7be;
+    width: 40%;
+    height: 25%;
+    border: none;
+    font-size: 100%;
+    color: white;
+}
+
+.subscribe-up-button:hover{
+    background-color: transparent;
+    border: 1.5px solid #6bb7be;
+}
+
+
+.social-icon{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 30%;
+    align-items: center;
+    margin: 2vh 0vw;
+}
+
+.icon{
+    border: 2px solid #6bb7be;
+    width: 20%;
+    height: 5vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #6bb7be;
+    border-radius: 5%;
+}
+
+.icon:hover{
+    color: #f89646;
+    border-color: #f89646;
+}
+
+.mobile-updates{
+    display: none;
+    flex-direction: column;
+    margin: 5vh 0vw;
+}
+
+.mobile-updates .singup button{
+    margin: auto;
+}
+
+.mobile-updates .social-icon{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 30%;
+    align-items: center;
+    margin: 2vh auto;
+}
+/* Footer Section Ends here */
